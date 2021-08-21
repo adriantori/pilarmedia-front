@@ -3,15 +3,15 @@
         <div class="col-8">
             <router-link 
                 :to="{ name: 'karyawan.create'}"
-                class="btn btn-primary btn-sm rounded shadow mb-3"
+                class="btn btn-info btn-sm rounded shadow mb-3"
             >Add</router-link>
             <router-link 
                 :to="{ name: 'karyawan.absensiall'}"
-                class="btn btn-primary btn-sm rounded shadow mb-3 mx-4"
+                class="btn btn-danger btn-sm rounded shadow mb-3 mx-4"
             >Cek Absensi All</router-link>
             <router-link 
                 :to="{ name: 'karyawan.cutiall'}"
-                class="btn btn-primary btn-sm rounded shadow mb-3 mx-4"
+                class="btn btn-danger btn-sm rounded shadow mb-3 mx-4"
             >Cek Cuti All</router-link>
 
             <div class="card rounded shadow">
